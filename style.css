@@ -1,0 +1,255 @@
+body{
+    background-color:#ffedd8;
+    text-align: center;
+    margin:0;
+    font-family: Arial,  sans-serif;
+    color: #906;
+
+    }
+  header {
+
+    
+    background-color: #8b5e34;
+    background-size:cover ;
+    min-height: 500px;
+    padding: 1px 5%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+position: relative;
+   } 
+header h1 {
+color: white;
+font-size: 50px;
+font-family: Montserrat;
+}
+
+
+header img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 6px solid white;
+
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+}
+a{
+    text-decoration: none;
+}
+.p{
+    background-color:#c9b195;
+   min-height: 40px;
+    width: 480px;
+    border-radius: 20%;
+    font-size: x-large;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.20);
+}
+#big-div{
+    
+padding: 40px;
+
+display: grid;
+    grid-template-columns: repeat(3,1fr);
+gap:12px;
+}
+h2,h3{
+    font-size: 30px;
+    color: black;
+}
+
+
+.o{
+    color: black;
+    font-size: 25px;
+}
+
+.span{
+    background-color:#ffedd8;
+    border-radius: 50%;
+    padding: 10px;
+}
+.b{
+  background-color:#8f705b;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 30px;
+    height: 70%;  
+    color:white;
+    font-size: 30px;
+    border: 5px solid #640d14;
+}
+
+
+
+#pro{
+    border-radius: 30px;
+    box-shadow: 0px 0px 35px #8b5e34;
+    padding: 40px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+#Projects {
+    border: 5px solid black;
+    padding: 10px;
+    display: table;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+button{
+    font-size: 30px;
+   
+    border-radius: 50%;
+    padding: 20px;
+    text-align: right;
+}
+button:hover{
+    background-color: #edc4b3;
+}
+
+ header {
+    background-color: #8b5e34;
+    min-height: 500px;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+}
+
+nav a {
+    background-color: aliceblue;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+#n{
+   height: 480px;
+    width: 480px;
+    border-radius: 20%;
+    font-size: x-large;
+    
+}
+#n{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+    box-sizing: border-box;
+    
+    margin: auto;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.20);
+}
+#about{
+    border: black 5px solid;
+    padding: 10px;
+}
+
+#education{
+     border: black 5px solid;
+     margin:80px; 
+      display: inline-block;
+      padding: 10px;
+      
+}
+#skills{
+  border: black 5px solid;
+      margin:80px; 
+      display: inline-block;
+      padding: 10px;
+        
+}
+
+footer{
+    text-align: center;
+    background-color:#8b5e34;
+    padding: 50px;
+    margin-top: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap:30px;
+
+}
+
+.con{
+        background-color: aliceblue;
+        padding: 20px;
+        width: 500px;
+        font-size: 25px;
+        border-radius: 30px;
+    }
+    .con:hover{
+        font-size: 27px;
+box-shadow:  0px 0px 35px #bc8a5f;
+    }
+  #contact {
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    grid-column: 1 / -1;
+    margin: 0;
+}
+#f{
+    font-size: 30px;
+    color:rgb(249, 181, 10)
+}
+#f{text-align:right;
+margin-top: 90px;}
+
+@media  (max-width:600px)
+{
+
+ #big-div {
+        grid-template-columns: 1fr;
+    }
+
+    
+    footer {
+        grid-template-columns: 1fr;
+    } 
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        top: 70px;
+        left: 10px;
+        right: 10px;
+    }
+
+    header img {
+    width: 150px;
+    height: 150px;
+    top: 180px;
+}
+
+
+}
+
+  
